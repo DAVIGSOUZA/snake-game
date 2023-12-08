@@ -2,7 +2,7 @@ import { BOARD_SIZE } from "./constants.js"
 import { getInputDirection } from "./input.js"
 
 
-const snakeBody = [{x: 21, y: 21}]
+const snakeBody = [{x: 5, y: 7}]
 
 let newSnakeSegment = 0
 
