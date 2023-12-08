@@ -1,4 +1,4 @@
-import { SNAKE_SPEED, RESTART_PATH } from "./constants.js"
+import { SNAKE_SPEED } from "./constants.js"
 import { 
   updateSnake,
   drawSnake,
