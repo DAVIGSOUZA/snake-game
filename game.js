@@ -1,4 +1,4 @@
-import { SNAKE_SPEED } from "./constants.js"
+import { SNAKE_SPEED, RESTART_PATH } from "./constants.js"
 import { 
   updateSnake,
   drawSnake,
@@ -16,7 +16,7 @@ const board = document.getElementById('board')
 function gameLoop(currentTime) {
   if (gameOver) {
     if (confirm('GAME OVER  😢')) {
-      window.location = '/'
+      window.location = RESTART_PATH
     }
 
     return
