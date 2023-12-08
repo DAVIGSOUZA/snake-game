@@ -16,7 +16,7 @@ const board = document.getElementById('board')
 function gameLoop(currentTime) {
   if (gameOver) {
     if (confirm('GAME OVER  😢')) {
-      window.location = RESTART_PATH
+      window.location.reload()
     }
 
     return
